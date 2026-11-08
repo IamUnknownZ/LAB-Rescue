@@ -1,0 +1,313 @@
+{
+  "schema_version": 1,
+  "bank_version": "1.0.0",
+  "title": "COM LAB RESCUE — คลังคำถามคอมพิวเตอร์พื้นฐาน",
+  "questions": [
+    {
+      "id": "s1_q01",
+      "stage_id": "stage_1",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "อุปกรณ์รับข้อมูล",
+      "prompt": "ต้องการพิมพ์ชื่อและข้อความลงในคอมพิวเตอร์ ควรใช้อุปกรณ์ใด?",
+      "options": [
+        { "id": "a", "label": "ลำโพง" },
+        { "id": "b", "label": "แป้นพิมพ์" },
+        { "id": "c", "label": "เครื่องพิมพ์" },
+        { "id": "d", "label": "จอภาพแบบไม่สัมผัส" }
+      ],
+      "correct_option_id": "b",
+      "explanation": "แป้นพิมพ์เป็นอุปกรณ์รับข้อมูล ใช้ป้อนตัวอักษร ตัวเลข และคำสั่งเข้าสู่คอมพิวเตอร์",
+      "points": 10,
+      "scene_target": "input.keyboard"
+    },
+    {
+      "id": "s1_q02",
+      "stage_id": "stage_1",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "อุปกรณ์แสดงผล",
+      "prompt": "อุปกรณ์ใดใช้แสดงภาพและข้อความจากคอมพิวเตอร์ให้ผู้ใช้มองเห็น?",
+      "options": [
+        { "id": "a", "label": "เมาส์" },
+        { "id": "b", "label": "ไมโครโฟน" },
+        { "id": "c", "label": "แป้นพิมพ์" },
+        { "id": "d", "label": "จอภาพแบบไม่สัมผัส" }
+      ],
+      "correct_option_id": "d",
+      "explanation": "จอภาพแสดงผลลัพธ์เป็นภาพและข้อความ จึงเป็นอุปกรณ์แสดงผล ส่วนเมาส์ ไมโครโฟน และแป้นพิมพ์ใช้รับข้อมูล",
+      "points": 10,
+      "scene_target": "output.monitor"
+    },
+    {
+      "id": "s1_q03",
+      "stage_id": "stage_1",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "การเลือกใช้อุปกรณ์รับข้อมูล",
+      "prompt": "หุ่นยนต์ต้องบันทึกเสียงพูดของนักเรียนเข้าสู่คอมพิวเตอร์ ควรต่ออุปกรณ์ใด?",
+      "options": [
+        { "id": "a", "label": "ไมโครโฟน" },
+        { "id": "b", "label": "ลำโพง" },
+        { "id": "c", "label": "เครื่องพิมพ์" },
+        { "id": "d", "label": "จอภาพแบบไม่สัมผัส" }
+      ],
+      "correct_option_id": "a",
+      "explanation": "ไมโครโฟนรับเสียงจากภายนอกเข้าสู่คอมพิวเตอร์ ส่วนลำโพงทำหน้าที่แสดงผลเสียงออกมาให้ได้ยิน",
+      "points": 10,
+      "scene_target": "input.microphone"
+    },
+    {
+      "id": "s1_q04",
+      "stage_id": "stage_1",
+      "type": "true_false",
+      "difficulty": "easy",
+      "category": "อุปกรณ์รับข้อมูล",
+      "prompt": "เมาส์เป็นอุปกรณ์รับข้อมูล เพราะใช้ส่งคำสั่งชี้ คลิก และเลือกสิ่งต่าง ๆ เข้าสู่คอมพิวเตอร์",
+      "options": [
+        { "id": "true", "label": "ถูก" },
+        { "id": "false", "label": "ผิด" }
+      ],
+      "correct_option_id": "true",
+      "explanation": "การขยับและคลิกเมาส์เป็นการส่งข้อมูลจากผู้ใช้เข้าสู่คอมพิวเตอร์ เมาส์จึงจัดเป็นอุปกรณ์รับข้อมูล",
+      "points": 10,
+      "scene_target": "input.mouse"
+    },
+    {
+      "id": "s1_q05",
+      "stage_id": "stage_1",
+      "type": "true_false",
+      "difficulty": "medium",
+      "category": "การแยกอุปกรณ์รับข้อมูลและแสดงผล",
+      "prompt": "ต้องการอัดเสียงพูดเข้าคอมพิวเตอร์ จึงเลือกใช้ลำโพงที่ไม่มีไมโครโฟน เพราะลำโพงเป็นอุปกรณ์รับเสียง",
+      "options": [
+        { "id": "true", "label": "ถูก" },
+        { "id": "false", "label": "ผิด" }
+      ],
+      "correct_option_id": "false",
+      "explanation": "ลำโพงทำหน้าที่แสดงผลเสียงจากคอมพิวเตอร์ การอัดเสียงพูดต้องใช้อุปกรณ์รับเสียง เช่น ไมโครโฟน",
+      "points": 10,
+      "scene_target": "output.speaker"
+    },
+    {
+      "id": "s1_q06",
+      "stage_id": "stage_1",
+      "type": "true_false",
+      "difficulty": "medium",
+      "category": "การเลือกใช้อุปกรณ์แสดงผล",
+      "prompt": "เมื่อสั่งพิมพ์รายงานลงกระดาษ เครื่องพิมพ์กำลังทำหน้าที่แสดงผลข้อมูลจากคอมพิวเตอร์",
+      "options": [
+        { "id": "true", "label": "ถูก" },
+        { "id": "false", "label": "ผิด" }
+      ],
+      "correct_option_id": "true",
+      "explanation": "การแสดงผลไม่ได้มีเพียงภาพบนจอ เครื่องพิมพ์แสดงผลข้อมูลออกมาเป็นข้อความหรือภาพบนกระดาษได้เช่นกัน",
+      "points": 10,
+      "scene_target": "output.printer"
+    },
+    {
+      "id": "s2_q01",
+      "stage_id": "stage_2",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "หน่วยประมวลผล",
+      "prompt": "หน้าที่หลักของ CPU คือข้อใด?",
+      "options": [
+        { "id": "a", "label": "พิมพ์ข้อมูลออกมาบนกระดาษ" },
+        { "id": "b", "label": "รับเสียงพูดจากผู้ใช้" },
+        { "id": "c", "label": "ประมวลผลคำสั่งและคำนวณ" },
+        { "id": "d", "label": "แสดงภาพให้ผู้ใช้มองเห็น" }
+      ],
+      "correct_option_id": "c",
+      "explanation": "CPU หรือหน่วยประมวลผลกลางทำงานตามคำสั่งของโปรแกรม เช่น คำนวณและประมวลผลข้อมูล",
+      "points": 10,
+      "scene_target": "processing.cpu"
+    },
+    {
+      "id": "s2_q02",
+      "stage_id": "stage_2",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "หน่วยความจำหลัก",
+      "prompt": "อุปกรณ์ใดใช้เก็บข้อมูลที่โปรแกรมกำลังใช้งานไว้ชั่วคราว?",
+      "options": [
+        { "id": "a", "label": "RAM" },
+        { "id": "b", "label": "เครื่องพิมพ์" },
+        { "id": "c", "label": "เมาส์" },
+        { "id": "d", "label": "ลำโพง" }
+      ],
+      "correct_option_id": "a",
+      "explanation": "RAM เป็นหน่วยความจำสำหรับข้อมูลและโปรแกรมที่กำลังทำงาน ข้อมูลใน RAM ปกติจะสูญหายเมื่อไม่มีไฟเลี้ยง",
+      "points": 10,
+      "scene_target": "memory.ram"
+    },
+    {
+      "id": "s2_q03",
+      "stage_id": "stage_2",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "การเลือกใช้อุปกรณ์จัดเก็บข้อมูล",
+      "prompt": "หุ่นยนต์ต้องบันทึกไฟล์รายงานไว้ในคอมพิวเตอร์เพื่อเปิดอีกครั้งหลังปิดเครื่อง ควรเก็บไว้ในอุปกรณ์ใด?",
+      "options": [
+        { "id": "a", "label": "CPU" },
+        { "id": "b", "label": "RAM" },
+        { "id": "c", "label": "ลำโพง" },
+        { "id": "d", "label": "SSD" }
+      ],
+      "correct_option_id": "d",
+      "explanation": "SSD เป็นอุปกรณ์จัดเก็บข้อมูลที่เก็บไฟล์ไว้ได้เมื่อปิดเครื่อง ต่างจาก RAM ซึ่งต้องมีไฟเลี้ยงเพื่อรักษาข้อมูล",
+      "points": 10,
+      "scene_target": "storage.ssd"
+    },
+    {
+      "id": "s2_q04",
+      "stage_id": "stage_2",
+      "type": "true_false",
+      "difficulty": "easy",
+      "category": "อุปกรณ์จัดเก็บข้อมูล",
+      "prompt": "SSD ใช้เก็บไฟล์ เช่น รูปภาพ เอกสาร และโปรแกรมได้",
+      "options": [
+        { "id": "true", "label": "ถูก" },
+        { "id": "false", "label": "ผิด" }
+      ],
+      "correct_option_id": "true",
+      "explanation": "SSD ใช้จัดเก็บไฟล์และโปรแกรม เพื่อนำข้อมูลกลับมาใช้งานในภายหลังได้",
+      "points": 10,
+      "scene_target": "storage.files"
+    },
+    {
+      "id": "s2_q05",
+      "stage_id": "stage_2",
+      "type": "true_false",
+      "difficulty": "medium",
+      "category": "ความแตกต่างระหว่าง RAM และ SSD",
+      "prompt": "เมื่อปิดเครื่องและ RAM ไม่มีไฟเลี้ยง ข้อมูลใน RAM จะยังคงอยู่เหมือนข้อมูลที่บันทึกไว้ใน SSD",
+      "options": [
+        { "id": "true", "label": "ถูก" },
+        { "id": "false", "label": "ผิด" }
+      ],
+      "correct_option_id": "false",
+      "explanation": "RAM ของคอมพิวเตอร์ทั่วไปต้องมีไฟเลี้ยงเพื่อรักษาข้อมูล ส่วน SSD เก็บไฟล์ไว้ได้แม้ไม่มีไฟเลี้ยง จึงต้องบันทึกงานลงอุปกรณ์จัดเก็บข้อมูล",
+      "points": 10,
+      "scene_target": "memory.volatility"
+    },
+    {
+      "id": "s2_q06",
+      "stage_id": "stage_2",
+      "type": "true_false",
+      "difficulty": "medium",
+      "category": "ความเข้าใจหน่วยความจำและพื้นที่จัดเก็บ",
+      "prompt": "ถ้า SSD ยังมีพื้นที่ว่างมาก แปลว่า RAM ต้องมีพื้นที่ว่างมากด้วยเสมอ",
+      "options": [
+        { "id": "true", "label": "ถูก" },
+        { "id": "false", "label": "ผิด" }
+      ],
+      "correct_option_id": "false",
+      "explanation": "RAM และ SSD เป็นคนละส่วน RAM ใช้กับโปรแกรมที่กำลังทำงาน ส่วน SSD ใช้เก็บไฟล์ พื้นที่ว่างของส่วนหนึ่งจึงไม่ได้บอกพื้นที่ว่างของอีกส่วน",
+      "points": 10,
+      "scene_target": "system.resources"
+    },
+    {
+      "id": "s3_q01",
+      "stage_id": "stage_3",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "การบันทึกไฟล์",
+      "prompt": "หลังแก้ไขรายงานและต้องการเก็บการเปลี่ยนแปลง ควรใช้คำสั่งใด?",
+      "options": [
+        { "id": "a", "label": "ลบไฟล์ (Delete)" },
+        { "id": "b", "label": "บันทึก (Save)" },
+        { "id": "c", "label": "ปิดโดยไม่บันทึก" },
+        { "id": "d", "label": "เปิดไฟล์อื่น (Open)" }
+      ],
+      "correct_option_id": "b",
+      "explanation": "คำสั่งบันทึกหรือ Save ใช้เก็บการเปลี่ยนแปลงของงาน ควรตรวจสอบชื่อไฟล์และตำแหน่งที่บันทึกด้วยเพื่อให้หาไฟล์เจอ",
+      "points": 10,
+      "scene_target": "files.save"
+    },
+    {
+      "id": "s3_q02",
+      "stage_id": "stage_3",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "category": "การรักษารหัสผ่าน",
+      "prompt": "มีคนที่ไม่รู้จักส่งข้อความมาขอรหัสผ่านบัญชีเรียน ควรทำอย่างไร?",
+      "options": [
+        { "id": "a", "label": "ส่งรหัสผ่านให้ทันที" },
+        { "id": "b", "label": "โพสต์รหัสผ่านให้ทุกคนดู" },
+        { "id": "c", "label": "ไม่ส่งรหัสผ่าน และแจ้งครูหรือผู้ดูแลหากสงสัย" },
+        { "id": "d", "label": "ส่งให้เฉพาะครึ่งหนึ่งของรหัสผ่าน" }
+      ],
+      "correct_option_id": "c",
+      "explanation": "รหัสผ่านเป็นข้อมูลลับสำหรับเข้าบัญชี ไม่ควรส่งให้ผู้ที่ติดต่อมาขอ หากมีข้อสงสัยให้ติดต่อครูหรือผู้ดูแลผ่านช่องทางที่รู้จัก",
+      "points": 10,
+      "scene_target": "account.password"
+    },
+    {
+      "id": "s3_q03",
+      "stage_id": "stage_3",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "category": "การตรวจสอบลิงก์และข้อความน่าสงสัย",
+      "prompt": "ได้รับข้อความอ้างว่าเป็นระบบโรงเรียน พร้อมลิงก์ให้กรอกรหัสผ่านด่วน แต่ไม่แน่ใจว่าข้อความจริงหรือไม่ ควรทำอย่างไร?",
+      "options": [
+        { "id": "a", "label": "เปิดเว็บไซต์ทางการเองจากที่อยู่ที่รู้จัก และตรวจสอบกับครูหรือผู้ดูแล" },
+        { "id": "b", "label": "กดลิงก์แล้วกรอกรหัสผ่านทันที เพราะข้อความบอกว่าด่วน" },
+        { "id": "c", "label": "ส่งรหัสผ่านตอบกลับในข้อความ" },
+        { "id": "d", "label": "ส่งลิงก์ให้เพื่อนกรอกรหัสผ่านแทน" }
+      ],
+      "correct_option_id": "a",
+      "explanation": "ข้อความเร่งด่วนอาจใช้หลอกให้เปิดเผยข้อมูล ควรเข้าเว็บไซต์ทางการด้วยตนเองและตรวจสอบผู้ส่งผ่านช่องทางที่รู้จักก่อนกรอกข้อมูลบัญชี",
+      "points": 10,
+      "scene_target": "internet.link"
+    },
+    {
+      "id": "s3_q04",
+      "stage_id": "stage_3",
+      "type": "true_false",
+      "difficulty": "easy",
+      "category": "การดูแลไฟล์งาน",
+      "prompt": "ควรบันทึกงานเป็นระยะระหว่างทำงาน เพื่อลดโอกาสสูญเสียสิ่งที่เพิ่งแก้ไข",
+      "options": [
+        { "id": "true", "label": "ถูก" },
+        { "id": "false", "label": "ผิด" }
+      ],
+      "correct_option_id": "true",
+      "explanation": "การบันทึกเป็นระยะช่วยลดปริมาณงานที่อาจสูญหายเมื่อโปรแกรมปิดหรือเครื่องมีปัญหา และควรสำรองไฟล์สำคัญแยกไว้อีกชุดด้วย",
+      "points": 10,
+      "scene_target": "files.checkpoint"
+    },
+    {
+      "id": "s3_q05",
+      "stage_id": "stage_3",
+      "type": "true_false",
+      "difficulty": "medium",
+      "category": "การใช้รหัสผ่านต่างกันในแต่ละบัญชี",
+      "prompt": "หากรหัสผ่านบัญชีหนึ่งรั่ว บัญชีอื่นที่ใช้รหัสผ่านเดียวกันก็อาจเสี่ยงถูกเข้าถึงได้",
+      "options": [
+        { "id": "true", "label": "ถูก" },
+        { "id": "false", "label": "ผิด" }
+      ],
+      "correct_option_id": "true",
+      "explanation": "ผู้ไม่หวังดีอาจนำรหัสผ่านที่รั่วไปลองกับบัญชีอื่น จึงควรใช้รหัสผ่านที่เดายากและแตกต่างกันในแต่ละบัญชี พร้อมเปิดการยืนยันตัวตนเพิ่มเติมเมื่อรองรับ",
+      "points": 10,
+      "scene_target": "account.password_reuse"
+    },
+    {
+      "id": "s3_q06",
+      "stage_id": "stage_3",
+      "type": "true_false",
+      "difficulty": "medium",
+      "category": "การใช้คอมพิวเตอร์ส่วนรวม",
+      "prompt": "เมื่อใช้บัญชีเรียนบนคอมพิวเตอร์ส่วนรวม การปิดแท็บอย่างเดียวถือว่าออกจากบัญชีเรียบร้อยเสมอ",
+      "options": [
+        { "id": "true", "label": "ถูก" },
+        { "id": "false", "label": "ผิด" }
+      ],
+      "correct_option_id": "false",
+      "explanation": "บางเว็บไซต์ยังคงสถานะเข้าสู่ระบบหลังปิดแท็บ ควรกดออกจากระบบและตรวจว่าออกสำเร็จแล้วก่อนเลิกใช้คอมพิวเตอร์ส่วนรวม",
+      "points": 10,
+      "scene_target": "account.signout"
+    }
+  ]
+}

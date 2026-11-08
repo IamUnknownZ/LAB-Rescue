@@ -1,0 +1,18 @@
+{
+  "name": "com-lab-rescue",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "เกมคอมพิวเตอร์ศึกษา Three.js ธีม Neo Brutalist",
+  "scripts": {
+    "dev": "python3 scripts/serve.py --host 0.0.0.0 --port ${PORT:-3000}",
+    "build": "node scripts/build.mjs",
+    "test:store": "node tests/store-test.mjs",
+    "test:apps-script": "node --test tests/apps-script-test.mjs",
+    "test:integration": "node --test tests/store-apps-script-test.mjs",
+    "test": "node --test tests/store-test.mjs tests/apps-script-test.mjs tests/store-apps-script-test.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}
